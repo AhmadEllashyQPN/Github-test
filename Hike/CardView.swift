@@ -42,7 +42,11 @@ struct CardView: View {
                                     .frame(width: 40,height: 40)
                                 Circle()
                                     .stroke(LinearGradient(colors: [.colorGrayLight,.colorGrayMedium], startPoint: .top, endPoint: .bottom),lineWidth: 4)
-                                    .frame(width: 50,height: 50)
+                                    .frame(width: 20,height: 20)
+                                Image(systemName: "figure.hiking")
+                                    .foregroundStyle(LinearGradient(colors: [.colorGrayLight,.colorGrayMedium], startPoint: .top, endPoint: .bottom))
+                                    .font(.system(size: 25))
+                                
                                 Image(systemName: "figure.hiking")
                                     .foregroundStyle(LinearGradient(colors: [.colorGrayLight,.colorGrayMedium], startPoint: .top, endPoint: .bottom))
                                     .font(.system(size: 25))
@@ -54,6 +58,14 @@ struct CardView: View {
                         .foregroundStyle(.colorGrayMedium)
                         .multilineTextAlignment(.leading)
                         .italic()
+                    
+                    Button {
+                        print("Ahmad Ellashy")
+                    } label: {
+                        Text("Ahmad Ellashy")
+                    }
+                    .frame(width: 100)
+                    .background { Color.red }
                 }
                 .padding()
                 
