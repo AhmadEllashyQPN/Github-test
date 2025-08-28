@@ -95,6 +95,7 @@ struct CardView: View {
                     
                 }
                 .buttonStyle(GradiantColor())
+                .frame(width: 50, height: 50, alignment: .center)
             }
         }
         .frame(width: 320,height: 570)
