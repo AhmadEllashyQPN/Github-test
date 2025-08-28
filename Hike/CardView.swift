@@ -26,6 +26,9 @@ struct CardView: View {
                             .font(.system(size: 52))
                             .foregroundStyle(LinearGradient(colors: [.customGrayLight,.customGrayMedium], startPoint: .top, endPoint: .bottom))
                         
+                        Text("Ahmad")
+                            .font(.callout)
+                        
                         Spacer()
                         
                         Button(action: {
@@ -36,7 +39,7 @@ struct CardView: View {
                             ZStack {
                                 Circle()
                                     .fill(LinearGradient(colors: [.white,.colorGreenLight,.colorGreenMedium], startPoint: .top, endPoint: .bottom))
-                                    .frame(width: 50,height: 50)
+                                    .frame(width: 40,height: 40)
                                 Circle()
                                     .stroke(LinearGradient(colors: [.colorGrayLight,.colorGrayMedium], startPoint: .top, endPoint: .bottom),lineWidth: 4)
                                     .frame(width: 50,height: 50)
@@ -76,6 +79,8 @@ struct CardView: View {
                                 endPoint: .bottom
                             )//:Linear
                         )
+                    
+                    
                 }
                 .buttonStyle(GradiantColor())
             }

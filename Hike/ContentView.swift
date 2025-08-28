@@ -33,7 +33,7 @@ struct RandomNumberView: View {
    var body: some View {
        VStack {
            Text("Random number is: \(randomNumber)")
-           Button("Generate Random Number") {
+           Button("Generate Number with Random") {
                randomNumber = (0..<1000).randomElement()!
            }
        }.padding(.bottom)
