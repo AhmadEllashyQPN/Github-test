@@ -39,7 +39,7 @@ struct CardView: View {
                                     .frame(width: 50,height: 50)
                                 Circle()
                                     .stroke(LinearGradient(colors: [.colorGrayLight,.colorGrayMedium], startPoint: .top, endPoint: .bottom),lineWidth: 4)
-                                    .frame(width: 30,height: 30)
+                                    .frame(width: 20,height: 20)
                                 Image(systemName: "figure.hiking")
                                     .foregroundStyle(LinearGradient(colors: [.colorGrayLight,.colorGrayMedium], startPoint: .top, endPoint: .bottom))
                                     .font(.system(size: 25))
@@ -55,6 +55,8 @@ struct CardView: View {
                         .foregroundStyle(.colorGrayMedium)
                         .multilineTextAlignment(.leading)
                         .italic()
+                    
+                    Text("Emad lol")
                 }
                 .padding()
                 
