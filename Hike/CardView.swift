@@ -39,7 +39,11 @@ struct CardView: View {
                                     .frame(width: 50,height: 50)
                                 Circle()
                                     .stroke(LinearGradient(colors: [.colorGrayLight,.colorGrayMedium], startPoint: .top, endPoint: .bottom),lineWidth: 4)
-                                    .frame(width: 50,height: 50)
+                                    .frame(width: 30,height: 30)
+                                Image(systemName: "figure.hiking")
+                                    .foregroundStyle(LinearGradient(colors: [.colorGrayLight,.colorGrayMedium], startPoint: .top, endPoint: .bottom))
+                                    .font(.system(size: 25))
+                                
                                 Image(systemName: "figure.hiking")
                                     .foregroundStyle(LinearGradient(colors: [.colorGrayLight,.colorGrayMedium], startPoint: .top, endPoint: .bottom))
                                     .font(.system(size: 25))

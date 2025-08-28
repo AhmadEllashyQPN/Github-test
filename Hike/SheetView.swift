@@ -17,7 +17,7 @@ struct SheetView: View {
                     Spacer()
                     Image(systemName: "laurel.leading")
                         .font(.system(size: 80,weight: .black))
-                    Text("Hike")
+                    Text("Hike123")
                         .font(.system(size: 60,weight: .heavy))
                     
                     Image(systemName: "laurel.trailing")
