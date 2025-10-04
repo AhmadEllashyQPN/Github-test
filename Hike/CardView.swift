@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CardView: View {
     //MARK: - Properties
-    @State var randomNumber: Int = 1
+    @State var randomNumber: Int = 3
     @State var imageNumber: Int = 1
     @State var isSheetOpened: Bool = false
     
