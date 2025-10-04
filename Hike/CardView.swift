@@ -11,7 +11,7 @@ struct CardView: View {
     //MARK: - Properties
     @State var randomNumber: Int = 3
     @State var imageNumber: Int = 6
-    @State var isSheetOpened: Bool = false
+    @State var isSheetOpened: Bool = true
     
     var body: some View {
         ZStack{
